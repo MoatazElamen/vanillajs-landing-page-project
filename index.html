@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <div class="holder"></div>
+  <header class="page__header" id="header" >
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+         
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>SCQA STORYTELLING </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" class="section" data-nav="Situation" >
+      <div class="landing__container">
+        <h2>Situation <span class="collapse">-</span></h2>
+        <div class="">
+          <p>Situation relates to the stability of the state of the world. It is the status quo and the norm. The writer should ask himself the following questions:</p>
+          <ul>
+            <li>What is the context of what is happening?</li>
+            <li>Who are the players?</li>
+          </ul>
+          <p>The sentence containing the situation in the passage is: “Steel Supplies is currently producing and selling steel bars at the capacity level of production.” The expression represents a statement that explains to the reader what is happening.</p>
+       
+        </div>
+      </div>
+    </section>
+    <section id="section2" class="section" data-nav="Complication">
+      <div class="landing__container">
+        <h2>Complication <span class="collapse">-</span></h2>
+        <div class="">
+          <p>When it comes to Complication, it represents a change in the situation and is the reason why business writing is needed. Referring to the example above, the complication part of SCQA is depicted in the following sentence:</p>
+          <p>“However, the business is turning down orders because of capacity constraints.”</p>
+          <p>So now, as a reader, we know there is a huge demand for steel bars, but the company’s capacity does not currently allow for meeting the demand.</p>
+        </div>
+        </div>
+    </section>
+    <section  class="section" data-nav="Question">
+      <div class="landing__container">
+        <h2>Question <span class="collapse">-</span> </h2>
+          <div class="">
+            <p>Question refers to the problem statement. After defining the problem, the next step is to develop a hypothesis. In other words, we start asking questions.</p>
+            <p>A hypothesis is usually falsifiable, which means it can be disproven. For example, “all corporations are profitable.” If you know one company that is not profitable, the hypothesis was wrong.</p>
+            <p>In our case, the question is hidden in the complication sentence: “However, the business is turning down orders because of capacity constraints.” After realizing the company cannot provide enough supply of steel bars to meet the demand, the question is: “How to create it?”</p>
+          </div>
+
+      </div>
+    </section>
+    <section  class="section" data-nav="Answer">
+      <div class="landing__container">
+        <h2>Answer <span class="collapse">-</span> </h2>
+        <div class="">
+          <p>Finally, Answer is the process of fixing and answering the question raised. So, the answer in the example will be to increase the production level of steel bars by 23,800 tons per year backed up by the market research justifying the market potential.</p>
+    
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+  <div class="scrolltop"> <span> ^ </span></div>
+  <script src="js/app.js"></script>
+  <script>
+
+  </script>
+</body>
+</html>

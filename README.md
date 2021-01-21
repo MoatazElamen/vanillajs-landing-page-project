@@ -2,12 +2,17 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [project brief](#brief)
+* [How To Use it](#HTU)
+* [How it was useful for me](#H)
+## brief
 
-## Instructions
+A Dynamic project done as a requirement in udacity web development course presenting a SCQA storytelling framework in four sections Situation , Complication , Question and Answer 
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## How to use it 
 
-To get started, open `js/app.js` and start building out the app's functionality
+you can easly drag and drop the html file into your browser and it's gonna be started in a new tap 
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## How it was useful for me
+
+    i learn new js methods in order to make this project like ( scrollIntoView , getBoundingClientRect ) and  used vanilla js instead of third party libraries like (React , jQuery) 

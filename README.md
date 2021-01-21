@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [project brief](#brief)
-* [How To Use it](#How to use it)
+* [How To Use it](#How-to-use-it)
 * [How it was useful for me](#How it was useful for me)
 ## brief
 
